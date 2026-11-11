@@ -1,0 +1,9 @@
+# Шаблон файла key.properties
+# Скопируйте этот файл в key.properties и заполните реальными значениями
+# НИКОГДА не коммитьте key.properties в репозиторий!
+
+storePassword=ваш_пароль_хранилища
+keyPassword=ваш_пароль_ключа
+keyAlias=release-key
+storeFile=release-key.jks
+

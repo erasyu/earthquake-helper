@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Earthquake Helper</string>
+    <string name="widget_emergency_contacts_label">Экстренные службы</string>
+    <string name="widget_emergency_contacts_description">Быстрый доступ к экстренным службам</string>
+    <string name="widget_siren_label">Сирена тревоги</string>
+    <string name="widget_siren_description">Управление сиреной тревоги</string>
+    <string name="widget_emergency_bag_label">Тревожный чемодан</string>
+    <string name="widget_emergency_bag_description">Список предметов тревожного чемодана</string>
+    <string name="siren_notification_channel_name">Сирена тревоги</string>
+    <string name="siren_notification_channel_description">Уведомление о работе сирены тревоги</string>
+    <string name="siren_notification_title">Сирена активна</string>
+    <string name="siren_notification_text">Нажмите, чтобы остановить</string>
+    <string name="siren_notification_stop">Остановить</string>
+</resources>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Базовая конфигурация: HTTPS только -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <!-- Исключение только для OpenStreetMap (необходимо для карт) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">tile.openstreetmap.org</domain>
+        <domain includeSubdomains="true">a.tile.openstreetmap.org</domain>
+        <domain includeSubdomains="true">b.tile.openstreetmap.org</domain>
+        <domain includeSubdomains="true">c.tile.openstreetmap.org</domain>
+    </domain-config>
+</network-security-config> 

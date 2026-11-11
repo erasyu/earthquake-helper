@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="250dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_emergency_bag"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:label="@string/widget_emergency_bag_label"
+    android:description="@string/widget_emergency_bag_description"
+    android:previewLayout="@layout/widget_emergency_bag" />
+
